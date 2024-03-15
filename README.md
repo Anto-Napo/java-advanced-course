@@ -4,13 +4,15 @@
 
 This is the following of the [java full course](https://github.com/Anto-Napo/java-full-course "Java full course").
 
+If you use Intellij, and it doesn't let you run the file, go in the gradle tab (right panel) and press refresh.
+
 ## Topics
 
 * Network Programming:
     * Sockets, servers, and clients
     * Communication protocols (TCP, UDP)
 
-* Graphical Programming:
+* GUI:
     * Swing
     * JavaFX
 
@@ -42,4 +44,8 @@ This is the following of the [java full course](https://github.com/Anto-Napo/jav
 
 Run the server then the client.
 
-Quit by typing "quit" in the client so it doesn't return an exception.
+Quit by typing "quit" in the client, so it doesn't return an exception.
+
+## GUI
+
+In the Main file, uncomment the `new xxxFrame();` to see the other frames.
