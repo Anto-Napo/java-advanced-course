@@ -37,3 +37,9 @@ This is the following of the [java full course](https://github.com/Anto-Napo/jav
 * Advanced Object-Oriented Design:
     * Design Patterns
     * SOLID principles
+
+## Network Programming
+
+Run the server then the client.
+
+Quit by typing "quit" in the client so it doesn't return an exception.

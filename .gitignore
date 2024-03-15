@@ -1,4 +1,4 @@
-.gradle
+network/client/client/.gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
