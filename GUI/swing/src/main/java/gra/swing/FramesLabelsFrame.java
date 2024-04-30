@@ -50,6 +50,6 @@ public class FramesLabelsFrame extends JFrame {
         this.pack(); //? Makes the frame fit perfectly with the layouts into it.
 
         //! Set visible
-        this.setVisible(true);
+        this.setVisible(false);
     }
 }

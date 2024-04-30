@@ -17,9 +17,11 @@ public class Main {
 
         frame.setVisible(true);
         */
+        //!
 
-        //* MyFrame frame = new MyFrame();
+        // MyFrame frame = new MyFrame();
         /* new FramesLabelsFrame(); */ //? Both methods can be used to create a frame.
+        new FramesLabelsFrame();
         new PanelsFrame();
     }
 }
