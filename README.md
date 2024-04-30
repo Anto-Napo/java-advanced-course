@@ -14,7 +14,6 @@ If you use Intellij, and it doesn't let you run the file, go in the gradle tab (
 
 * GUI:
     * Swing
-    * JavaFX
 
 * Annotations and Reflection:
     * Usage of annotations
