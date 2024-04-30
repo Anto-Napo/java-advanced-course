@@ -24,5 +24,6 @@ public class Main {
         new FramesLabelsFrame();
         new PanelsFrame();
         new ButtonsFrame();
+        new LayoutsFrame();
     }
 }

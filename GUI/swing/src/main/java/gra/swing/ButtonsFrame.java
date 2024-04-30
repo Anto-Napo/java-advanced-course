@@ -43,7 +43,7 @@ public class ButtonsFrame extends JFrame implements ActionListener { //? Uses Ac
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //? Can use this instead of creating a JFrame
         this.setLayout(null);
         this.setSize(750, 750);
-        this.setVisible(true);
+        this.setVisible(false);
 
         this.add(button);
         this.add(label);
