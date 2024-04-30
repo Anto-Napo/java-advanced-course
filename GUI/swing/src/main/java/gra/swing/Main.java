@@ -23,5 +23,6 @@ public class Main {
         /* new FramesLabelsFrame(); */ //? Both methods can be used to create a frame.
         new FramesLabelsFrame();
         new PanelsFrame();
+        new ButtonsFrame();
     }
 }

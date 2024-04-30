@@ -35,7 +35,7 @@ public class PanelsFrame extends JFrame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
         frame.setSize(750, 750);
-        frame.setVisible(true);
+        frame.setVisible(false);
 
         greenPanel.add(thumb);
         frame.add(redPanel);
