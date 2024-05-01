@@ -25,5 +25,6 @@ public class Main {
         new PanelsFrame();
         new ButtonsFrame();
         new LayoutsFrame();
+        new LayeredPaneFrame();
     }
 }

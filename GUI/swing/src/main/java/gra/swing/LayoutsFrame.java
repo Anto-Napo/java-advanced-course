@@ -113,6 +113,6 @@ public class LayoutsFrame extends JFrame {
         this.add(new JButton("9"));
         this.add(new JButton("10"));
 
-        this.setVisible(true);
+        this.setVisible(false);
     }
 }
