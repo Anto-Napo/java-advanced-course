@@ -21,11 +21,12 @@ public class Main {
 
         // MyFrame frame = new MyFrame();
         /* new FramesLabelsFrame(); */ //? Both methods can be used to create a frame.
-        new FramesLabelsFrame();
-        new PanelsFrame();
+        new FramesLabelsFrame(); // Frame, Text, Image
+        new PanelsFrame(); // Container
         new ButtonsFrame();
-        new LayoutsFrame();
-        new LayeredPaneFrame();
+        new LayoutsFrame(); // Behaviour of a container
+        new LayeredPaneFrame(); // Depth
         new NewWindowFirstFrame();
+        new OptionPaneFrame(); // PopUp
     }
 }

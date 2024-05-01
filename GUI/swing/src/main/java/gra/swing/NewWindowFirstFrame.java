@@ -19,7 +19,7 @@ public class NewWindowFirstFrame extends JFrame implements ActionListener {
         this.setSize(750, 750);
 
         this.add(button);
-        this.setVisible(true);
+        this.setVisible(false);
 
     }
 
