@@ -26,5 +26,6 @@ public class Main {
         new ButtonsFrame();
         new LayoutsFrame();
         new LayeredPaneFrame();
+        new NewWindowFirstFrame();
     }
 }

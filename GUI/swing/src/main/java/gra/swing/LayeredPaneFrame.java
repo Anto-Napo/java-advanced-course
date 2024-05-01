@@ -39,6 +39,6 @@ public class LayeredPaneFrame extends JFrame {
         this.setLayout(null);
 
         this.add(layeredPane);
-        this.setVisible(true);
+        this.setVisible(false);
     }
 }
