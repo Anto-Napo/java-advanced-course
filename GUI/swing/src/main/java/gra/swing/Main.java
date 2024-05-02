@@ -1,10 +1,8 @@
 package gra.swing;
 
-import java.awt.*;
-
 public class Main {
     public static void main(String[] args) {
-        //! All of this can be set here or in a new class.
+        //! The frames can be created in the main class or in a new class.
         /*
         JFrame frame = new JFrame(); // Create the frame
         frame.setTitle("New JFrame app");
@@ -19,8 +17,8 @@ public class Main {
 
         frame.setVisible(true);
         */
-        //!
 
+        //! Parts
         // MyFrame frame = new MyFrame();
         /* new FramesLabelsFrame(); */ //? Both methods can be used to create a frame.
         new FramesLabelsFrame(); // Frame, Text, Image
@@ -28,9 +26,11 @@ public class Main {
         new ButtonsFrame();
         new LayoutsFrame(); // Behaviour of a container
         new LayeredPaneFrame(); // Depth
+
         new NewWindowFirstFrame();
         new OptionPaneFrame(); // PopUp
         new TextFieldFrame(); // Input
         new CheckboxFrame();
+        new RadioButtonFrame(); // (also listener)
     }
 }
