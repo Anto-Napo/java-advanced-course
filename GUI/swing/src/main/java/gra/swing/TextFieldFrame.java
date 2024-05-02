@@ -30,7 +30,7 @@ public class TextFieldFrame extends JFrame implements ActionListener {
         this.add(textField);
         this.add(button);
         this.pack();
-        this.setVisible(true);
+        this.setVisible(false);
     }
 
     @Override

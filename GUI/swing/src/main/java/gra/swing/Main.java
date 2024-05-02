@@ -1,5 +1,7 @@
 package gra.swing;
 
+import java.awt.*;
+
 public class Main {
     public static void main(String[] args) {
         //! All of this can be set here or in a new class.
@@ -29,5 +31,6 @@ public class Main {
         new NewWindowFirstFrame();
         new OptionPaneFrame(); // PopUp
         new TextFieldFrame(); // Input
+        new CheckboxFrame();
     }
 }
