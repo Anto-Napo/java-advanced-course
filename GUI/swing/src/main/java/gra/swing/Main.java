@@ -28,9 +28,11 @@ public class Main {
         new LayeredPaneFrame(); // Depth
 
         new NewWindowFirstFrame();
+
         new OptionPaneFrame(); // PopUp
         new TextFieldFrame(); // Input
         new CheckboxFrame();
-        new RadioButtonFrame(); // (also listener)
+        new RadioButtonFrame();
+        new ComboBoxFrame();
     }
 }

@@ -48,7 +48,7 @@ public class RadioButtonFrame extends JFrame implements ActionListener {
         this.add(hamburgerButton);
         this.add(hotdogButton);
         this.pack();
-        this.setVisible(true);
+        this.setVisible(false);
     }
     @Override
     public void actionPerformed(ActionEvent e) {
