@@ -39,7 +39,7 @@ public class OptionPaneFrame extends JFrame implements ActionListener {
         this.add(button2);
         this.add(button3);
         this.add(button4);
-        this.setVisible(true);
+        this.setVisible(false);
     }
 
     @Override
@@ -51,7 +51,7 @@ public class OptionPaneFrame extends JFrame implements ActionListener {
             }
         }
         if(e.getSource() == button2) {
-            //! Create a JOptionPane to ask an information to a user
+            //! Create a JOptionPane to ask a confirmation to a user
             int answer = JOptionPane.showConfirmDialog(null, "Do you like pizza?", "Pizza", JOptionPane.YES_NO_CANCEL_OPTION);
             switch (answer) {
                 case -1 -> System.out.println("Why :(");
@@ -62,10 +62,12 @@ public class OptionPaneFrame extends JFrame implements ActionListener {
             }
         }
         if(e.getSource() == button3) {
+            //! Create a JOptionPane to ask an input to a user
             String name = JOptionPane.showInputDialog(null, "What's your name?", "Input", JOptionPane.QUESTION_MESSAGE);
             System.out.println("Your name is " + name);
         }
         if(e.getSource() == button4) {
+            //! Create a JOptionPane to ask something to a user
             String[] responses = {"No, you're awesome", "Thank you", "*blush*"};
             ImageIcon icon = new ImageIcon(Objects.requireNonNull(Main.class.getResource("/point.png")));
 

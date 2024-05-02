@@ -28,5 +28,6 @@ public class Main {
         new LayeredPaneFrame(); // Depth
         new NewWindowFirstFrame();
         new OptionPaneFrame(); // PopUp
+        new TextFieldFrame(); // Input
     }
 }
