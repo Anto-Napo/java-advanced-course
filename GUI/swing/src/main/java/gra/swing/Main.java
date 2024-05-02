@@ -34,5 +34,6 @@ public class Main {
         new CheckboxFrame();
         new RadioButtonFrame();
         new ComboBoxFrame();
+        new SliderFrame();
     }
 }

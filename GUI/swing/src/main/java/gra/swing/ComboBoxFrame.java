@@ -13,11 +13,11 @@ public class ComboBoxFrame extends JFrame implements ActionListener {
         comboBox = new JComboBox<>(animals);
         comboBox.addActionListener(this);
 
-        comboBox.insertItemAt("Mouse", 0);
-        comboBox.setSelectedIndex(0); //? By default, the index selected will be the first item in the original array.
-
-        comboBox.removeItem("Cat");
-        comboBox.removeItemAt(0);
+//        comboBox.insertItemAt("Mouse", 0);
+//        comboBox.setSelectedIndex(0); //? By default, the index selected will be the first item in the original array.
+//
+//        comboBox.removeItem("Cat");
+//        comboBox.removeItemAt(0);
 
 //        comboBox.removeAll();
 
@@ -28,7 +28,7 @@ public class ComboBoxFrame extends JFrame implements ActionListener {
 
         this.add(comboBox);
         this.pack();
-        this.setVisible(true);
+        this.setVisible(false);
     }
 
     @Override
