@@ -1,5 +1,7 @@
 package gra.swing;
 
+import java.awt.event.KeyListener;
+
 public class Main {
     public static void main(String[] args) {
         //! The frames can be created in the main class or in a new class.
@@ -44,5 +46,7 @@ public class Main {
 
         new FileSelectorFrame();
         new ColorChooserFrame();
+
+        new KeyListenerFrame();
     }
 }

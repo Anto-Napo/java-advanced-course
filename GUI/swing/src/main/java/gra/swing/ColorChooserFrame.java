@@ -27,7 +27,7 @@ public class ColorChooserFrame extends JFrame implements ActionListener {
         this.add(button);
         this.add(label);
         this.pack();
-        this.setVisible(true);
+        this.setVisible(false);
     }
     @Override
     public void actionPerformed(ActionEvent e) {
