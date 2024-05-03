@@ -35,5 +35,10 @@ public class Main {
         new RadioButtonFrame();
         new ComboBoxFrame();
         new SliderFrame();
+        try {
+            new ProgressBarFrame();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

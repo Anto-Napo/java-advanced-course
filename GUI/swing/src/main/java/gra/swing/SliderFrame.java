@@ -41,7 +41,7 @@ public class SliderFrame extends JFrame implements ChangeListener {
         panel.add(label);
         panel.add(slider);
         this.add(panel);
-        this.setVisible(true);
+        this.setVisible(false);
     }
     @Override
     public void stateChanged(ChangeEvent e) {
