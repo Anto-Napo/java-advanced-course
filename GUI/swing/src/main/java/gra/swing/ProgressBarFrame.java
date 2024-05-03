@@ -22,7 +22,7 @@ public class ProgressBarFrame extends JFrame {
         this.setLayout(null);
 
         this.add(progressBar);
-        this.setVisible(true);
+        this.setVisible(false);
 
         fill();
     }
