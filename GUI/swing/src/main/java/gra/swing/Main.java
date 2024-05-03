@@ -43,5 +43,6 @@ public class Main {
         new MenuBarFrame();
 
         new FileSelectorFrame();
+        new ColorChooserFrame();
     }
 }
