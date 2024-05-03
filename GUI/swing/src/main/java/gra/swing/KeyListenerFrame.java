@@ -26,7 +26,7 @@ public class KeyListenerFrame extends JFrame implements KeyListener {
         this.getContentPane().setBackground(Color.black);
 
         this.add(label);
-        this.setVisible(true);
+        this.setVisible(false);
     }
     @Override
     public void keyTyped(KeyEvent e) {

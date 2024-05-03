@@ -48,5 +48,6 @@ public class Main {
         new ColorChooserFrame();
 
         new KeyListenerFrame();
+        new MouseListenerFrame();
     }
 }
