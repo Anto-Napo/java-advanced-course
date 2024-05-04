@@ -22,7 +22,7 @@ public class MouseListenerFrame extends JFrame implements MouseListener {
         this.setLayout(null);
 
         this.add(label);
-        this.setVisible(true);
+        this.setVisible(false);
     }
     @Override
     public void mouseClicked(MouseEvent e) {
