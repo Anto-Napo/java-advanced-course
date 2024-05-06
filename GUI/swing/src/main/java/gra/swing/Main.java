@@ -48,7 +48,8 @@ public class Main {
         new KeyListenerFrame();
         new MouseListenerFrame();
         new DragDropFrame();
-
         new KeyBidingFrame();
+
+        new TwoDGraphFrame();
     }
 }

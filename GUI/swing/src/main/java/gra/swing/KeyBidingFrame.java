@@ -46,7 +46,7 @@ public class KeyBidingFrame extends JFrame {
         this.setLayout(null);
 
         this.add(label);
-        this.setVisible(true);
+        this.setVisible(false);
     }
     public class UpAction extends AbstractAction {
         @Override
