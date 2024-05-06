@@ -11,6 +11,6 @@ public class DragDropFrame extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         this.add(panel);
-        this.setVisible(true);
+        this.setVisible(false);
     }
 }
