@@ -4,6 +4,8 @@
 
 This is the following of the [java full course](https://github.com/Anto-Napo/java-full-course "Java full course").
 
+You should use IntelliJ as the `.idea` folders are already present. Otherwise, remove them.
+
 You may want to install the plugin/extension *better comments* so you can have a better view of the comments.
 
 Parts that I'm working on are updated on a specific branch before they are merged on the main one after being finished. Don't forget to check them!
@@ -16,14 +18,11 @@ If you use Intellij, and it doesn't let you run the file, go in the gradle tab (
     * Sockets, servers, and clients
     * Communication protocols (TCP, UDP)
 
-* GUI:
-    * Swing
+* GUI (Swing)
 
-* Annotations and Reflection:
-    * Usage of annotations
-    * Accessing class information at runtime
+* Annotations
 
-* Functional Programming (Java 8 and later):
+* Functional Programming:
     * Lambda expressions
     * Streams
 
