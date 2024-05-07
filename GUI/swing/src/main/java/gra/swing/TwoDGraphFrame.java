@@ -16,7 +16,7 @@ public class TwoDGraphFrame extends JFrame {
 
         this.add(panel);
         this.pack();
-        this.setVisible(true);
+        this.setVisible(false);
     }
     //! The top bar is included in the frame size, so it's better to do that in a panel
     /*

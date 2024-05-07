@@ -51,5 +51,6 @@ public class Main {
         new KeyBidingFrame();
 
         new TwoDGraphFrame();
+        new Animated2DFrame();
     }
 }
