@@ -14,31 +14,27 @@ If you use Intellij, and it doesn't let you run the file, go in the gradle tab (
 
 ## Topics
 
-* Network Programming:
-    * Sockets, servers, and clients
-    * Communication protocols (TCP, UDP)
+* Network Programming: :white_check_mark:
+    * Sockets, servers, and clients :white_check_mark:
+    * Communication protocols (TCP, UDP) :white_check_mark:
 
-* GUI (Swing)
+* GUI (Swing) :white_check_mark:
 
-* Annotations
+* Annotations :white_check_mark:
 
-* Streams (Java 8 and later):
+* Streams (Java 8 and later) :white_check_mark:
 
-* Advanced APIs:
-    * JDBC for database access
-    * Java Servlets for web development
-    * Java EE (Jakarta EE) for enterprise applications
+* JDBC for database access :white_check_mark:
+* 
+* JUnit and Unit Testing :x:
 
-* JUnit and Unit Testing:
-    * Writing unit tests with JUnit
-
-* Java Frameworks:
-    * Spring Framework
-    * Hibernate
-
-* Advanced Object-Oriented Design:
-    * Design Patterns
-    * SOLID principles
+* Java Frameworks: :x:
+    * Spring Framework :x:
+    * Hibernate :x:
+  
+* Advanced Object-Oriented Design: :x:
+    * Design Patterns :x:
+    * SOLID principles :x:
 
 ## Network Programming
 
