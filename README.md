@@ -26,7 +26,7 @@ If you use Intellij, and it doesn't let you run the file, go in the gradle tab (
 
 * JDBC for database access :white_check_mark:
 
-* JUnit and Unit Testing :x:
+* JUnit :white_check_mark:
 
 * Java Frameworks: :x:
   * Spring Framework :x:
